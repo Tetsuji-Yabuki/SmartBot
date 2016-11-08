@@ -1,0 +1,5 @@
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\SmartBot.Domain.dll
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\SmartBot.Domain.pdb
+D:\Dev\SmartBot\SmartBot.Domain\obj\Debug\SmartBot.Domain.csprojResolveAssemblyReference.cache
+D:\Dev\SmartBot\SmartBot.Domain\obj\Debug\SmartBot.Domain.dll
+D:\Dev\SmartBot\SmartBot.Domain\obj\Debug\SmartBot.Domain.pdb
