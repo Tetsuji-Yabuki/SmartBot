@@ -1,0 +1,44 @@
+D:\Dev\SmartBot\SmartBot.Web\obj\Debug\SmartBot.Web.csprojResolveAssemblyReference.cache
+D:\Dev\SmartBot\SmartBot.Web\bin\Bot Application1.dll.config
+D:\Dev\SmartBot\SmartBot.Web\bin\Bot Application1.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\Bot Application1.pdb
+D:\Dev\SmartBot\SmartBot.Web\bin\Autofac.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\Chronic.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.Bot.Builder.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.Bot.Connector.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.Rest.ClientRuntime.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\Newtonsoft.Json.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\SmartBot.Domain.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\System.Net.Http.Formatting.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\System.Web.Http.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\System.Web.Http.WebHost.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\SmartBot.Domain.pdb
+D:\Dev\SmartBot\SmartBot.Web\bin\Autofac.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.Bot.Builder.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.Bot.Connector.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.Rest.ClientRuntime.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\Newtonsoft.Json.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\Dev\SmartBot\SmartBot.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\System.Net.Http.Formatting.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\System.Web.Http.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\System.Web.Http.WebHost.xml
+D:\Dev\SmartBot\SmartBot.Web\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\ja\System.Net.Http.Formatting.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\ja\System.Web.Http.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\bin\ja\System.Web.Http.WebHost.resources.dll
+D:\Dev\SmartBot\SmartBot.Web\obj\Debug\Bot Application1.dll
+D:\Dev\SmartBot\SmartBot.Web\obj\Debug\Bot Application1.pdb

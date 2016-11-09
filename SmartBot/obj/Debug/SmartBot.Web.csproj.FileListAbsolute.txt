@@ -7,7 +7,6 @@ D:\Dev\SmartBot\SmartBot\bin\Microsoft.Bot.Builder.dll
 D:\Dev\SmartBot\SmartBot\bin\Microsoft.Bot.Connector.dll
 D:\Dev\SmartBot\SmartBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
 D:\Dev\SmartBot\SmartBot\bin\Microsoft.Rest.ClientRuntime.dll
-D:\Dev\SmartBot\SmartBot\bin\Microsoft.WindowsAzure.Configuration.dll
 D:\Dev\SmartBot\SmartBot\bin\Newtonsoft.Json.dll
 D:\Dev\SmartBot\SmartBot\bin\System.IdentityModel.Tokens.Jwt.dll
 D:\Dev\SmartBot\SmartBot\bin\System.Net.Http.Formatting.dll
@@ -18,7 +17,6 @@ D:\Dev\SmartBot\SmartBot\bin\Microsoft.Bot.Builder.xml
 D:\Dev\SmartBot\SmartBot\bin\Microsoft.Bot.Connector.xml
 D:\Dev\SmartBot\SmartBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
 D:\Dev\SmartBot\SmartBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
-D:\Dev\SmartBot\SmartBot\bin\Microsoft.WindowsAzure.Configuration.xml
 D:\Dev\SmartBot\SmartBot\bin\Newtonsoft.Json.xml
 D:\Dev\SmartBot\SmartBot\bin\System.IdentityModel.Tokens.Jwt.pdb
 D:\Dev\SmartBot\SmartBot\bin\System.IdentityModel.Tokens.Jwt.xml
@@ -40,3 +38,6 @@ D:\Dev\SmartBot\SmartBot\obj\Debug\Bot Application1.dll
 D:\Dev\SmartBot\SmartBot\obj\Debug\Bot Application1.pdb
 D:\Dev\SmartBot\SmartBot\bin\SmartBot.Domain.dll
 D:\Dev\SmartBot\SmartBot\bin\SmartBot.Domain.pdb
+D:\Dev\SmartBot\SmartBot\bin\ja\System.Net.Http.Formatting.resources.dll
+D:\Dev\SmartBot\SmartBot\bin\ja\System.Web.Http.resources.dll
+D:\Dev\SmartBot\SmartBot\bin\ja\System.Web.Http.WebHost.resources.dll
