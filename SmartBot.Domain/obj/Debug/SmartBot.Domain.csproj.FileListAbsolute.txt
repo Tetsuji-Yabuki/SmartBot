@@ -3,3 +3,14 @@ D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\SmartBot.Domain.pdb
 D:\Dev\SmartBot\SmartBot.Domain\obj\Debug\SmartBot.Domain.csprojResolveAssemblyReference.cache
 D:\Dev\SmartBot\SmartBot.Domain\obj\Debug\SmartBot.Domain.dll
 D:\Dev\SmartBot\SmartBot.Domain\obj\Debug\SmartBot.Domain.pdb
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.abstractions.dll
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.assert.dll
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.core.dll
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.execution.desktop.dll
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.abstractions.xml
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.assert.pdb
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.assert.xml
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.core.pdb
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.core.xml
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.execution.desktop.pdb
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.execution.desktop.xml
