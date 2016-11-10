@@ -1,0 +1,26 @@
+version: 1.0.{build}
+build:
+  publish_wap: true
+  verbosity: minimal
+artifacts:
+- path: build.zip
+  name: CIBuild
+  type: WebDeployPackage
+notifications:
+- provider: Slack
+  incoming_webhook: https://hooks.slack.com/services/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
+  auth_token:
+    secure: 23T+9eAh7wf7i2KXlQu27Q==
+  channel: dev-appveyor
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: false
+deploy:
+  provider: WebDeploy
+  server: https://smartbot-tmp.scm.azurewebsites.net:443/msdeploy.axd?site=smartbot-tmp
+  website: smartbot-tmp
+  username: $smartbot-tmp
+  password: Ht5tctlnGMY9G2PC2bfLiwSkzlow3GSWlu3QpDRkquGleoy9NW2blDas9gbW
+  ntlm: false
+  remove_files: false
+  artifact:  
