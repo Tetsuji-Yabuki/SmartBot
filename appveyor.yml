@@ -2,10 +2,6 @@ version: 1.0.{build}
 build:
   publish_wap: true
   verbosity: minimal
-artifacts:
-- path: build.zip
-  name: CIBuild
-  type: WebDeployPackage
 notifications:
 - provider: Slack
   incoming_webhook: https://hooks.slack.com/services/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
@@ -23,5 +19,5 @@ deploy:
   password: 
       secure: f1odxw3DmplLvw9xsqBczDgMXyMZuukHQaDRoubsG4wgopyvmQGbnz5xCihq
   ntlm: false
-  remove_files: false
-  artifact:  
+  remove_files: true
+  app_offline: true
