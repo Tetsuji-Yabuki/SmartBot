@@ -20,7 +20,8 @@ deploy:
   server: https://smartbot-tmp.scm.azurewebsites.net:443/msdeploy.axd?site=smartbot-tmp
   website: smartbot-tmp
   username: $smartbot-tmp
-  password: Ht5tctlnGMY9G2PC2bfLiwSkzlow3GSWlu3QpDRkquGleoy9NW2blDas9gbW
+  password: 
+      secure: f1odxw3DmplLvw9xsqBczDgMXyMZuukHQaDRoubsG4wgopyvmQGbnz5xCihq
   ntlm: false
   remove_files: false
   artifact:  
