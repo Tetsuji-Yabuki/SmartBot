@@ -11,9 +11,6 @@ notifications:
   on_build_success: true
   on_build_failure: true
   on_build_status_changed: false
-artifacts:
-- path: *
-  name: mypackage  
 deploy:
   provider: WebDeploy
   server: https://smartbot-tmp.scm.azurewebsites.net:443/msdeploy.axd?site=smartbot-tmp
@@ -21,4 +18,3 @@ deploy:
   username: $smartbot-tmp
   password: f1odxw3DmplLvw9xsqBczDgMXyMZuukHQaDRoubsG4wgopyvmQGbnz5xCihq
   ntlm: false
-  artifact: mypackage
