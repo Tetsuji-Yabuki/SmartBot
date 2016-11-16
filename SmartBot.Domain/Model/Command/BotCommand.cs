@@ -117,6 +117,8 @@ namespace SmartBot.Domain.Model.Command
 
             if (json.query.pages.Any())
                 result.Message = json.query.pages.First().Value.extract;
+            else
+                result.Message = "そんなものねーよ！！";
 
             return result;
         }

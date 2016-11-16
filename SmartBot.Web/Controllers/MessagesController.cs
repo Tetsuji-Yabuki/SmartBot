@@ -33,12 +33,14 @@ namespace SmartBot
                     var result = command.Execute();
 
                     var message = new StringBuilder();
-                    message.AppendLine($"Command[{command.CommandText}]");
-                    message.AppendLine($"Args[{string.Join(",", command.Arguments)}]");
-                    message.AppendLine($"Result[{nameof(result.EndCode)}]");
-                    message.AppendLine($"Message[{result.Message}]");
+                    //message.AppendLine($"Command[{command.CommandText}]");
+                    //message.AppendLine($"Args[{string.Join(",", command.Arguments)}]");
+                    //message.AppendLine($"Result[{nameof(result.EndCode)}]");
+                    //message.AppendLine($"Message[{result.Message}]");
+                    message.AppendLine("★ぼっと君 ＜");
+                    message.AppendLine(result.Message);
 
-                    var reply = activity.CreateReply(message.ToString());
+                    var reply = activity.CreateReply(result.Message);
 
                     await connector.Conversations.ReplyToActivityAsync(reply);
                 }
