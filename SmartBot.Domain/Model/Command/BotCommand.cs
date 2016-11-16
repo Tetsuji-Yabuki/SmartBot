@@ -112,13 +112,12 @@ namespace SmartBot.Domain.Model.Command
         private CommandActionResult GetResult(string response)
         {
             var result       = new CommandActionResult();
-            var decodeResult = HttpUtility.UrlDecode(response);
             var json         = JsonConvert.DeserializeObject<WikipediaApiResult>(response);
 
-            if (json.query.pages.Any())
-                result.Message = json.query.pages.First().Value.extract;
-            else
-                result.Message = "そんなものねーよ！！";
+            result.EndCode = ActionResultCode.正常終了;
+            result.Message = json.query.pages.Any()
+                ? json.query.pages.First().Value.extract
+                : "そんなものねーよ！(怒";
 
             return result;
         }
