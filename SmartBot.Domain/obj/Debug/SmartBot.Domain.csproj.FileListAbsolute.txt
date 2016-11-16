@@ -14,3 +14,5 @@ D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.core.pdb
 D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.core.xml
 D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.execution.desktop.pdb
 D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\xunit.execution.desktop.xml
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\SmartBot\SmartBot.Domain\bin\Debug\Newtonsoft.Json.xml

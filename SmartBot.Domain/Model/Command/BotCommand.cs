@@ -1,8 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Runtime.Remoting.Channels;
+using System.Net.Http;
+using System.Runtime.Serialization;
 using System.Threading.Tasks;
+using System.Text;
+using System.Web;
+using Newtonsoft.Json;
 
 namespace SmartBot.Domain.Model.Command
 {
@@ -61,14 +66,13 @@ namespace SmartBot.Domain.Model.Command
 
         protected override CommandActionResult ExecuteCore()
         {
-            var text = Arguments.Any() ? Arguments[0] : "";
-
-            var response = new CommandActionResult();
+            var text   = Arguments.Any() ? Arguments[0] : "";
+            var result = new CommandActionResult();
 
             if (text.Contains("hello"))
-                response.Message = "こんにちは！こんにちは！";
+                result.Message = "こんにちは！こんにちは！";
 
-            return response;
+            return result;
         }
     }
 
@@ -80,6 +84,70 @@ namespace SmartBot.Domain.Model.Command
     public class BuildBotCommand : BotCommand
     {
         public override string CommandText => "build";
+    }
+
+    public class WikipediaBotCommand : BotCommand
+    {
+        public override string CommandText => "wkp";
+
+        protected override CommandActionResult ExecuteCore()
+        {
+            var text         = Arguments.Any() ? Arguments[0] : "";
+            var httpResponse = GetResponse(text);
+            var result       = GetResult(httpResponse.Result);
+
+            return result;
+        }
+
+        private async Task<string> GetResponse(string searchKey)
+        {
+            var encodeKey  = HttpUtility.UrlEncode(searchKey);
+            var formatType = "json";
+            var url        = $"http://ja.wikipedia.org/w/api.php?action=query&format={formatType}&prop=extracts&redirects=0&exchars=300&explaintext=1&titles={encodeKey}";
+
+            using (var cl = new HttpClient())
+                return await cl.GetStringAsync(url).ConfigureAwait(false);
+        }
+
+        private CommandActionResult GetResult(string response)
+        {
+            var result       = new CommandActionResult();
+            var decodeResult = HttpUtility.UrlDecode(response);
+            var json         = JsonConvert.DeserializeObject<WikipediaApiResult>(response);
+
+            if (json.query.pages.Any())
+                result.Message = json.query.pages.First().Value.extract;
+
+            return result;
+        }
+
+        //Wikipedia apiの結果(json)
+
+        public class WikipediaApiResult
+        {
+            public string batchcomplete { get; set; }
+            public Query query { get; set; }
+            public Limits limits { get; set; }
+        }
+
+        public class Query
+        {
+            public Dictionary<string, pageval> pages { get; set; }
+        }
+
+        public class Limits
+        {
+            public int extracts { get; set; }
+        }
+
+        public class pageval
+        {
+            public int pageid { get; set; }
+            public int ns { get; set; }
+            public string title { get; set; }
+            public string extract { get; set; }
+        }
+
     }
 
 }

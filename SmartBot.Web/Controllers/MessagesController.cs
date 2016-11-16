@@ -48,7 +48,7 @@ namespace SmartBot
             }
             catch (Exception ex)
             {
-                var a = ex;
+                throw;
             }
 
             return response;
